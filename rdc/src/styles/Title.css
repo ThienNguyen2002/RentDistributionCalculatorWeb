@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Oswald-VariableFont_wght';
+    src: url(../../fonts/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+.title {
+    font-family: 'Oswald-VariableFont_wght';
+    font-size: 2.5rem;
+    color: #302B27;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.subtitle{
+    font-family: 'Oswald-VariableFont_wght';
+    font-size: 1.5rem;
+    color: #302B27;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
