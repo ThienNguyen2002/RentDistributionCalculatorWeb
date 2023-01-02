@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'Oswald-VariableFont_wght';
+    src: url(../../fonts/Oswald-VariableFont_wght.ttf) format('truetype');
+  }
+  
+  .form-container {
+    overflow: auto;
+    font-family: 'Oswald-VariableFont_wght';
+    font-size: 1.5rem;
+    color: #302B27;
+    text-align: center;
+    padding: 0;
+    width: 75%;
+    margin: 0 auto;
+
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-input {
+    font-family: 'Oswald-VariableFont_wght';
+    font-size: 1rem;
+    color: #302B27;
+    border: 1px solid #302B27;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    width: 100%;
+  }
+
+  .form-input::-webkit-outer-spin-button,
+.form-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
+  .form-button {
+    font-family: 'Oswald-VariableFont_wght';
+    font-size: 1rem;
+    color: #f5f3f5;
+    background-color: #274690;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .remove-button {
+    font-family: 'Oswald-VariableFont_wght';
+    font-size: 1rem;
+    color: #f5f3f5;
+    background-color: #274690;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
