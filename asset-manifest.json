@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/RentDistributionCalculatorWeb/static/css/main.75bb88cb.css",
+    "main.js": "/RentDistributionCalculatorWeb/static/js/main.cc4f8043.js",
+    "static/media/Oswald-VariableFont_wght.ttf": "/RentDistributionCalculatorWeb/static/media/Oswald-VariableFont_wght.46d7853f0185f6bf0c93.ttf",
+    "index.html": "/RentDistributionCalculatorWeb/index.html",
+    "main.75bb88cb.css.map": "/RentDistributionCalculatorWeb/static/css/main.75bb88cb.css.map",
+    "main.cc4f8043.js.map": "/RentDistributionCalculatorWeb/static/js/main.cc4f8043.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75bb88cb.css",
+    "static/js/main.cc4f8043.js"
+  ]
+}
