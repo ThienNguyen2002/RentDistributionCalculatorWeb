@@ -1,11 +1,16 @@
 
-// Total rent percentage calculated by dividing the rent by the salary. IF the rent is greater than the salary, then return "Why are you guys paying rent if you can't afford it?"
+// Total rent percentage calculated by dividing the rent by the salary. 
 
 
 
 function rentPercentage(rent, totalSalary) {
 
-        return rent / totalSalary;
+        if (typeof rent === "undefined") {
+                return; 
+        }
+        else if (totalSalary !== 0) {        
+        return (rent / totalSalary) * 100;
+        }
     
 }
 
