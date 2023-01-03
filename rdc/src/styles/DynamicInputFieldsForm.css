@@ -57,4 +57,9 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
   }
+
+  .remove-button[disabled]{
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
   
