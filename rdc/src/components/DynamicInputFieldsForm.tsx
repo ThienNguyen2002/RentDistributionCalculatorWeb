@@ -4,6 +4,7 @@ import CurrencyInput from "react-currency-input-field";
 import User from "../models/users";
 import totalSalary from "../functions/totalSalary";
 import rentPercentage from "../functions/rentPercentage";
+import rentToMate from "../functions/rentToMate";
 
 const DynamicInputFieldsForm: React.FC = () => {
   const [users, setUsers] = useState<User[]>([
@@ -17,8 +18,10 @@ const DynamicInputFieldsForm: React.FC = () => {
   };
 
   const removeUser = (index: number) => {
-    if (users.length > 1) {
-      setUsers(users.filter((_, i) => i !== index));
+    setUsers(users.filter((_, i) => i !== index));
+
+    if (users.length <= 1) {
+      return;
     }
   };
 
@@ -88,19 +91,28 @@ const DynamicInputFieldsForm: React.FC = () => {
             intlConfig={{ locale: "en-US", currency: "USD" }}
             placeholder="Rent from this roommate"
             decimalsLimit={2}
-            onValueChange={(value) => handleChange(index, "rent", value)}
+            decimalScale={2}
             allowNegativeValue={false}
             readOnly
+            value={rentToMate(
+              rentPercentage(rent, totalSalary(users)),
+              user.salary
+            )}
             className="form-input"
           />
-          <button onClick={() => removeUser(index)} className="remove-button">
+          <button
+            id="remove"
+            onClick={() => removeUser(index)}
+            className="remove-button"
+            disabled={users.length <= 1}
+          >
             X
           </button>
         </div>
       ))}
       <div style={{ position: "sticky", bottom: 0 }}>
         <button onClick={addUser} className="form-button">
-          Add
+          Add Roommate
         </button>
       </div>
     </div>
