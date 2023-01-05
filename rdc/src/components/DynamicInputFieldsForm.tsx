@@ -7,10 +7,12 @@ import rentPercentage from "../functions/rentPercentage";
 import rentToMate from "../functions/rentToMate";
 
 const DynamicInputFieldsForm: React.FC = () => {
+  //Deine the state for the users
   const [users, setUsers] = useState<User[]>([
     { name: "", salary: "", rent: 0 },
   ]);
 
+  //Define the state for the rent
   const [rent, setRent] = useState<number>(0);
 
   const addUser = () => {
@@ -25,6 +27,7 @@ const DynamicInputFieldsForm: React.FC = () => {
     }
   };
 
+  //Handle the change of the input fields
   const handleChange = (
     index: number,
     field: keyof User,
