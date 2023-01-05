@@ -3,6 +3,15 @@
     font-family: 'Oswald-VariableFont_wght';
     src: url(../../fonts/Oswald-VariableFont_wght.ttf) format('truetype');
   }
+  .form-label{
+    font-family: 'Oswald-VariableFont_wght';
+    font-size: 1.5rem;
+    color: #302B27;
+    text-align: center;
+    padding: 0;
+    width: 75%;
+    margin: 0 auto;
+  }
   
   .form-container {
     overflow: auto;

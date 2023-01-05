@@ -38,6 +38,13 @@ const DynamicInputFieldsForm: React.FC = () => {
   return (
     <div className="form-container">
       <div className="form-row">
+        <label className="form-label">Enter the rent below</label>
+        <label className="form-label">Total Salary Combined</label>
+        <label className="form-label">
+          Percentage (Rent / Total Salary Combined)
+        </label>
+      </div>
+      <div className="form-row">
         <CurrencyInput
           intlConfig={{ locale: "en-US", currency: "USD" }}
           placeholder="Rent"
@@ -66,7 +73,12 @@ const DynamicInputFieldsForm: React.FC = () => {
           className="form-input"
         />
       </div>
-
+      <div className="form-row">
+        <label className="form-label">Roommate's name</label>
+        <label className="form-label">Roommate's Monthly Salary</label>
+        <label className="form-label">Rent from this roommate</label>
+        <div style={{ padding: "0.5rem 1rem" }}></div>
+      </div>
       {users.map((user, index) => (
         <div key={index} className="form-row">
           <input
