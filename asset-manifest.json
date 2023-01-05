@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/RentDistributionCalculatorWeb/static/css/main.75bb88cb.css",
-    "main.js": "/RentDistributionCalculatorWeb/static/js/main.ad36744d.js",
+    "main.css": "/RentDistributionCalculatorWeb/static/css/main.f80331f8.css",
+    "main.js": "/RentDistributionCalculatorWeb/static/js/main.79d65365.js",
     "static/media/Oswald-VariableFont_wght.ttf": "/RentDistributionCalculatorWeb/static/media/Oswald-VariableFont_wght.46d7853f0185f6bf0c93.ttf",
     "index.html": "/RentDistributionCalculatorWeb/index.html",
-    "main.75bb88cb.css.map": "/RentDistributionCalculatorWeb/static/css/main.75bb88cb.css.map",
-    "main.ad36744d.js.map": "/RentDistributionCalculatorWeb/static/js/main.ad36744d.js.map"
+    "main.f80331f8.css.map": "/RentDistributionCalculatorWeb/static/css/main.f80331f8.css.map",
+    "main.79d65365.js.map": "/RentDistributionCalculatorWeb/static/js/main.79d65365.js.map"
   },
   "entrypoints": [
-    "static/css/main.75bb88cb.css",
-    "static/js/main.ad36744d.js"
+    "static/css/main.f80331f8.css",
+    "static/js/main.79d65365.js"
   ]
 }
